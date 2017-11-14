@@ -80,9 +80,9 @@ typedef struct Server
  *******************************************************************************/
 
 // SX1272 - Raspberry connections
-int ssPin = 6;
+int ssPin = 22;
 int dio0  = 7;
-int RST   = 0;
+int RST   = 11;
 
 // Set spreading factor (SF7 - SF12)
 SpreadingFactor_t sf = SF7;
