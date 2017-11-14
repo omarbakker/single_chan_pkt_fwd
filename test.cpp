@@ -2,6 +2,7 @@
 #include <wiringPiSPI.h>
 #include <sys/time.h>
 #include <sys/types.h>
+#include <iostream>
 
 using namespace std;
 
@@ -17,7 +18,8 @@ int main()
         delay(1000);
         digitalWrite(led, LOW);
         delay(1000);
-        printf("hello!!!\n", stdout);
+        cout << "hello!!!" << endl
+
     }
 
     return 0;
