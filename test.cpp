@@ -15,6 +15,9 @@ int main()
     for (int i = 0; i < 100; i++){
         digitalWrite(led, HIGH);
         delay(1000);
+        digitalWrite(led, LOW);
+        delay(1000);
+        printf("hello!!!\n", stdout);
     }
 
     return 0;
