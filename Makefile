@@ -16,6 +16,12 @@ single_chan_pkt_fwd.o: single_chan_pkt_fwd.cpp
 base64.o: base64.c
 	$(CC) $(CFLAGS) base64.c
 
+test: test.o
+	$(CC) test.o $(LIBS) -o testled
+
+test.o: test.cpp
+	$(CC) $(CFLAGS) test.cpp
+
 clean:
 	rm *.o single_chan_pkt_fwd
 
@@ -29,4 +35,4 @@ install:
 uninstall:
 	sudo systemctl stop single_chan_pkt_fwd
 	sudo systemctl disable single_chan_pkt_fwd.service
-	sudo rm -f /lib/systemd/system/single_chan_pkt_fwd.service 
+	sudo rm -f /lib/systemd/system/single_chan_pkt_fwd.service
