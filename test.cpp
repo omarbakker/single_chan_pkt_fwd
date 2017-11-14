@@ -13,9 +13,9 @@ int main()
     pinMode(led, OUTPUT);
 
     for (int i = 0; i < 100; i++){
-        digitalWrite(led, HIGH)
-        delay(1000)
+        digitalWrite(led, HIGH);
+        delay(1000);
     }
 
-    return 0
+    return 0;
 }
