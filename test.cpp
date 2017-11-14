@@ -19,7 +19,6 @@ int main()
         digitalWrite(led, LOW);
         delay(1000);
         cout << "hello!!!" << endl;
-
     }
 
     return 0;
