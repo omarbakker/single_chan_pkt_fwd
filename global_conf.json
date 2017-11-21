@@ -14,22 +14,8 @@
     "ref_longitude": 0.0,
     "ref_altitude": 10,
 
-    "name": "SC Gateway",
-    "email": "contact@whatever.com",
-    "desc": "Dragino Single Channel Gateway on RPI",
-
-    "servers":
-    [
-      {
-        "address": "router.eu.staging.thethings.network",
-        "port": 1700,
-        "enabled": true
-      },
-      {
-        "address": "router.eu.thethings.network",
-        "port": 1700,
-        "enabled": false
-      }
-    ]
+    "name": "TU",
+    "email": "-",
+    "desc": "Terrestrial Unit",
   }
 }
